@@ -33,8 +33,8 @@ export const CoachBar = () => {
     ];
 
     return (
-        <div className='flex relative'>
-            <div className='bg-white flex flex-col w-[200px] h-auto mt-5 p absolute right-10 rounded-xl'>
+        <div className='flex '>
+            <div className='bg-white flex flex-col w-[200px] h-auto mt-5 p right-10 rounded-xl'>
                 <div className='flex flex-col items-center mt-10'>
                     <Link to={"/coach"}>
                         <img
