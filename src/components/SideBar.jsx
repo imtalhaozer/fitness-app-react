@@ -44,7 +44,7 @@ export const SideBar = () => {
         }
       </div>
       <div className='mt-auto'>
-        <Link>
+        <Link to={"/user"} >
           <img src={avatarImg} alt="avatarImg" className='w-20 h-20 rounded-full border-collapse border-red-500 border-[3px]' />
         </Link>
       </div>
